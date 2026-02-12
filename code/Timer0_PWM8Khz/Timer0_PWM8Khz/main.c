@@ -22,7 +22,7 @@ int main(void)
 	TCCR0B |= (1<<CS01);
 
 	// 60% duty cycle
-	OCR0A = 102;
+	OCR0A = 153;
 
 	while (1)
 	{
